@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="1000" height="1000" xmlns="http://www.w3.org/2000/svg" version="1.1" x="0px" y="0px" viewBox="0 0 1000 1500"
+     style="enable-background:new 0 0 612 792;">
+    <style type="text/css">
+        line {stroke-width: 2;}
+        text {font-size: 20px;}
+
+        #intro {fill:white;}
+        .intro {fill:black;stroke:black;}
+
+        #skill-summary {fill:white;}
+        .skill-summary {fill:purple;stroke:purple;}
+
+        #overview {fill:yellow;}
+        .overview {fill:brown;stroke:brown;}
+
+        #experience {fill:magenta;}
+        .experience {fill:darkblue;stroke:darkblue}
+
+        .alignment { fill:none; }
+    </style>
+
+    <!--  Structure  -->
+    <g id="structure">
+
+
+        <g class="alignment">
+            <rect width="30" height="100%" x="50" y="0"/>
+        </g>
+    </g>
+
+    <!--  Intro  -->
+    <line class="intro" x1="0" x2="100%" y1="100" y2="100"/>
+    <rect class="intro" width="900" height="90" x="50" y="0"/>
+    <g id="intro" transform="translate(30,30)">
+        <g transform="translate(30)">
+            <g id="name-title">
+                <text>
+                    <tspan>Firstname Lastname</tspan>
+                </text>
+                <text>
+                    <tspan dy="20">Senior Fullstack Engineer</tspan>
+                </text>
+            </g>
+            <text id="tagline" text-anchor="end" x="870">
+                <tspan>Strong Individual Contributor</tspan>
+            </text>
+            <text id="goal" text-anchor="end" x="870">
+                <tspan dy="20">Looking for synergy</tspan>
+            </text>
+        </g>
+    </g>
+
+    <!--  Skill Summary  -->
+    <line class="skill-summary" x1="0" x2="100%" y1="100" y2="100"/>
+    <rect class="skill-summary" width="900" height="160" x="50" y="100"/>
+    <g id="skill-summary" transform="translate(30,100)">
+        <g transform="translate(30,30)">
+            <text id="main-skills">Bug diagnosis, Auditing, Refactoring</text>
+            <g transform="translate(50,30)">
+                <g id="top-technologies">
+                    <text>
+                        <tspan x="0" dy="0">PHP</tspan>
+                        <tspan x="0" dy="20">TypeScript</tspan>
+                        <tspan x="0" dy="20">MySql</tspan>
+                        <tspan x="0" dy="20">HTML</tspan>
+                        <tspan x="0" dy="20">CSS</tspan>
+                    </text>
+                </g>
+                <g id="additional-technologies" transform="translate(200,0)">
+                    <text>
+                        <tspan x="0" dy="0">Git</tspan>
+                        <tspan x="0" dy="20">Docker</tspan>
+                        <tspan x="0" dy="20">AWS</tspan>
+                        <tspan x="0" dy="20">NGINX</tspan>
+                        <tspan x="0" dy="20">Apache</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="skills" transform="translate(870,0)">
+                <text text-anchor="end">
+                    <tspan x="0" dy="20">Object-Oriented and Functional Programming</tspan>
+                    <tspan x="0" dy="20">Unit, Integration, and End-to-End testing</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+
+    <!--  Overview  -->
+    <line class="overview" x1="0" x2="100%" y1="270" y2="270"/>
+    <rect class="overview" width="900" height="265" x="50" y="270"/>
+    <g id="overview" transform="translate(30,270)">
+        <g transform="translate(30,30)">
+            <g id="developing" transform="translate(0,0)">
+                <text>Development</text>
+                <text x="800">
+                    <tspan>12</tspan>
+                    <tspan dx="5">years</tspan>
+                </text>
+                <text dy="20" dx="50">https://spwashi.com/on/development</text>
+            </g>
+            <g id="deploying" transform="translate(0,50)">
+                <text>Deployment</text>
+                <text x="800">
+                    <tspan>10</tspan>
+                    <tspan dx="5">years</tspan>
+                </text>
+                <text dy="20" dx="50">https://spwashi.com/on/deployment</text>
+            </g>
+            <g id="architecting" transform="translate(0,100)">
+                <text>Architecture</text>
+                <text x="800">
+                    <tspan>8</tspan>
+                    <tspan dx="5">years</tspan>
+                </text>
+                <text dy="20" dx="50">https://spwashi.com/on/architecture</text>
+            </g>
+            <g id="github" transform="translate(0,150)">
+                <text>GitHub</text>
+                <text x="800">
+                    <tspan>7</tspan>
+                    <tspan dx="5">years</tspan>
+                </text>
+                <text dy="20" dx="50">https://github.com/spwashi</text>
+            </g>
+            <g id="college" transform="translate(0,200)">
+                <text>Out of College</text>
+                <text x="800">
+                    <tspan>6</tspan>
+                    <tspan dx="5">years</tspan>
+                </text>
+                <text dy="20" dx="50">University of Illinois Urbana-Champaign</text>
+            </g>
+
+        </g>
+    </g>
+
+    <!--  Experience  -->
+    <line class="experience" x1="0" x2="100%" y1="545" y2="545"/>
+    <rect class="experience" width="900" height="900" x="50" y="545"/>
+    <g id="experience" transform="translate(30,545)">
+        <g transform="translate(30,30)">
+            <g id="professional-experience-title">
+                <text>Professional Experience</text>
+                <text x="800">
+                    <tspan>10</tspan>
+                    <tspan dx="5">years</tspan>
+                </text>
+            </g>
+            <g id="year-2012" transform="translate(0,50)">
+                <text>Company F</text>
+                <g transform="translate(870)" text-anchor="end">
+                    <text>2012-2016</text>
+                    <text>
+                        <tspan dy="20">Intern, Architect</tspan>
+                    </text>
+                </g>
+                <g transform="translate(50)">
+                    <text>
+                        <tspan dy="20" x="0">Project Architecture</tspan>
+                        <tspan dy="20" x="0">User Profile Administration</tspan>
+                        <tspan dy="20" x="0">Document Storage</tspan>
+                    </text>
+                </g>
+                <g transform="translate(525)" text-anchor="middle">
+                    <text>
+                        <tspan dy="20" x="0">PHP</tspan>
+                        <tspan dy="20" x="0">JavaScript</tspan>
+                        <tspan dy="20" x="0">jQuery</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="year-2016" transform="translate(0,200)">
+                <text>Company E</text>
+                <g transform="translate(870)" text-anchor="end">
+                    <text>2016-2017</text>
+                    <text>
+                        <tspan dy="20">Intern, Web Developer</tspan>
+                    </text>
+                </g>
+                <g transform="translate(50)">
+                    <text>
+                        <tspan dy="20" x="0">Project Architecture</tspan>
+                        <tspan dy="20" x="0">Order Placement</tspan>
+                        <tspan dy="20" x="0">Authentication</tspan>
+                    </text>
+                </g>
+                <g transform="translate(525)" text-anchor="middle">
+                    <text>
+                        <tspan dy="20" x="0">PHP</tspan>
+                        <tspan dy="20" x="0">JavaScript</tspan>
+                        <tspan dy="20" x="0">Drupal</tspan>
+                        <tspan dy="20" x="0">jQuery</tspan>
+                        <tspan dy="20" x="0">Symfony</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="year-2018" transform="translate(0,350)">
+                <text>Company D</text>
+                <g transform="translate(870)" text-anchor="end">
+                    <text>2018-2019</text>
+                    <text>
+                        <tspan dy="20">Digital Applications Developer</tspan>
+                    </text>
+                </g>
+                <g transform="translate(50)">
+                    <text>
+                        <tspan dy="20" x="0">Software Lifecycle Management</tspan>
+                        <tspan dy="20" x="0">Marketing Site Development</tspan>
+                        <tspan dy="20" x="0">Content Management</tspan>
+                    </text>
+                </g>
+                <g transform="translate(525)" text-anchor="middle">
+                    <text>
+                        <tspan dy="20" x="0">PHP</tspan>
+                        <tspan dy="20" x="0">Drupal</tspan>
+                        <tspan dy="20" x="0">React</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="year-2019" transform="translate(0,500)">
+                <text>Company C</text>
+                <g transform="translate(870)" text-anchor="end">
+                    <text>2019-2021</text>
+                    <text>
+                        <tspan dy="20">Fullstack Engineer</tspan>
+                    </text>
+                </g>
+                <g transform="translate(50)">
+                    <text>
+                        <tspan dy="20" x="0">Internal Application Development</tspan>
+                        <tspan dy="20" x="0">Fraud Detection/Prevention</tspan>
+                        <tspan dy="20" x="0">Code Review</tspan>
+                    </text>
+                </g>
+                <g transform="translate(525)" text-anchor="middle">
+                    <text>
+                        <tspan dy="20" x="0">PHP</tspan>
+                        <tspan dy="20" x="0">Symfony</tspan>
+                        <tspan dy="20" x="0">React</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="year-2022" transform="translate(0,650)">
+                <text>Company B</text>
+                <g transform="translate(870)" text-anchor="end">
+                    <text>2022</text>
+                    <text>
+                        <tspan dy="20">Senior Software Engineer</tspan>
+                    </text>
+                </g>
+                <g transform="translate(50)">
+                    <text>
+                        <tspan dy="20" x="0">Design System Development</tspan>
+                        <tspan dy="20" x="0">Component Library Research</tspan>
+                        <tspan dy="20" x="0">Project Architecture</tspan>
+                    </text>
+                </g>
+                <g transform="translate(525)" text-anchor="middle">
+                    <text>
+                        <tspan dy="20" x="0">Java</tspan>
+                        <tspan dy="20" x="0">React</tspan>
+                        <tspan dy="20" x="0">Mantine</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="year-2022" transform="translate(0,800)">
+                <text>Company A</text>
+                <g transform="translate(50)">
+                    <text>
+                        <tspan dy="20" x="0">Bug Diagnosis</tspan>
+                        <tspan dy="20" x="0">Architecture Visualization</tspan>
+                    </text>
+                </g>
+                <g transform="translate(525)" text-anchor="middle">
+                    <text>
+                        <tspan dy="20" x="0">React</tspan>
+                        <tspan dy="20" x="0">Mobx/Redux</tspan>
+                        <tspan dy="20" x="0">Gatsby</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

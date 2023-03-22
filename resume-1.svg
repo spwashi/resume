@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="1000" height="1500" xmlns="http://www.w3.org/2000/svg" version="1.1" x="0px" y="0px" viewBox="0 0 1000 1500"
+     style="enable-background:new 0 0 1000 1265;">
+    <style type="text/css">
+        text{font-family: "Jetbrains Mono", monospace}
+        line {stroke-width: 2;}
+        text {font-size: 20px;}
+        a text {cursor: pointer; text-decoration: underline;}
+
+        <!--        -->
+        #section--intro {fill: #F8E7D2;}
+        #section--intro rect {fill: #4E4B4D;}
+
+        #section--main_skills {fill: white;}
+        #section--main_skills rect {fill: #872424;}
+
+        #section--tech_summary {fill: #FCE5CD;}
+        #section--tech_summary rect {fill: #BF3434; }
+        #section--tech_summary tspan {font-size:15px; }
+
+        #section--overview {fill: #CCE5F3;}
+        #section--overview rect {fill: #2D5F5F;}
+        #section--overview a text {cursor: pointer; text-decoration: underline; font-size:16px}
+        #section--overview .label {font-size: 13px}
+        #section--experience {fill: #D9F0E3;}
+        #section--experience rect {fill: #1B4332;}
+
+        .tenure {text-anchor:end;}
+        .principles tspan{font-size:13px;}
+        .job-technologies tspan{font-size:13px}
+        .city {font-size: smaller; font-style: italic}
+        .company, .title-and-duration text + text {font-weight:bold;}
+        #college .school-and-major, #goal { font-size:12px;}
+        #section--experience-title .title tspan { font-size:1.5em;}
+    </style>
+    <g id="section--intro" transform="translate(30,30.0020)">
+        <rect width="1000" height="170.000001131" y="-30" x="-30 "/>
+        <g transform="translate(0, 45)">
+            <text class="me--name">
+                <tspan font-size="1.5em">Sam Washington</tspan>
+            </text>
+            <text class="me--title">
+                <tspan font-size="1.3em" dy="30">Senior Fullstack Engineer</tspan>
+            </text>
+            <g transform="translate(30)">
+                <text class="me--strength__primary" text-anchor="end" x="900">
+                    <tspan>Strong Team Contributor</tspan>
+                </text>
+                <text class="me--goal__primary" opacity=".75" text-anchor="end" x="900" dy="30">
+                    <tspan>sustainable growth and development</tspan>
+                </text>
+            </g>
+        </g>
+        <text xml:space="preserve"><tspan>&#9;</tspan></text>
+        <g transform="translate(30, -15)">
+            <text class="this--made_with_love--msg" opacity=".5" text-anchor="middle" x="450">
+                <tspan font-size=".9em" dx="0" dy="15" font-style="italic">This resume was made manually with SVG
+                </tspan>
+            </text>
+        </g>
+        <text xml:space="preserve"><tspan>&#9;</tspan></text>
+        <g class="links" transform="translate(30, 120)">
+            <a href="https://spwashi.com/?from=spwashi.resume">
+                <text x="320" text-anchor="middle">
+                    <tspan>spwashi.com</tspan>
+                </text>
+            </a>
+            <a href="https://spwashi.com/on/hello/?from=spwashi.resume">
+                <text x="580" text-anchor="middle">introduction</text>
+            </a>
+        </g>
+    </g>
+    <text xml:space="preserve"><tspan>&#9;</tspan></text>
+    <text xml:space="preserve"><tspan>&#9;</tspan></text>
+    <g id="section--main_skills" transform="translate(0,180.000001131)">
+        <rect width="1000" height="45.000002242"/>
+        <g class="inner-wrapper" transform="translate(30,30)">
+            <text transform="translate(470)" text-anchor="middle">
+                <tspan font-size="1.2em">
+                    Feature Implementation, Bug Diagnosis, Auditing,
+                    Refactoring
+                </tspan>
+            </text>
+        </g>
+    </g>
+    <text xml:space="preserve"><tspan>&#9;</tspan></text>
+    <g id="section--tech_summary" transform="translate(0,235.000002242)">
+        <rect width="1000" height="165.000003353"/>
+        <g class="inner-wrapper" transform="translate(500, 30)" text-anchor="middle">
+            <g transform="translate(-250)">
+                <text>
+                    <tspan class="feat--technology" x="0">PHP/TypeScript/Python</tspan>
+                    <tspan class="feat--technology" x="0" dy="2em">Relational/Document Databases</tspan>
+                    <tspan class="feat--technology" x="0" dy="2em">CSS/SASS</tspan>
+                    <tspan class="feat--technology" x="0" dy="2em">Webpack/Composer</tspan>
+                    <tspan class="feat--technology" x="0" dy="2em">Templating Engines</tspan>
+                </text>
+            </g>
+            <g transform="translate(0,0)">
+                <text>
+                    <tspan class="technology" x="0" dy="0">Programming Paradigms</tspan>
+                    <tspan class="technology" x="0" dy="2em">Analytics</tspan>
+                    <tspan class="technology" x="0" dy="2em">Accessibility</tspan>
+                    <tspan class="technology" x="0" dy="2em">Testing/QA</tspan>
+                    <tspan class="technology" x="0" dy="2em">End-to-End Testing</tspan>
+                </text>
+            </g>
+            <g transform="translate(250,0)">
+                <text>
+                    <tspan class="technology" x="0">Version Control</tspan>
+                    <tspan class="technology" x="0" dy="2em">Servers/Proxies</tspan>
+                    <tspan class="technology" x="0" dy="2em">Containerization</tspan>
+                    <tspan class="technology" x="0" dy="2em">Performance</tspan>
+                    <tspan class="technology" x="0" dy="2em">Bundling/Caching</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+    <text xml:space="preserve"><tspan>&#9;</tspan></text>
+    <text xml:space="preserve"><tspan>&#9;</tspan></text>
+    <g id="section--overview" transform="translate(0,410.000003353)">
+        <rect width="1000" height="295.000004464"/>
+        <g class="inner-wrapper" transform="translate(30,30)">
+            <g id="developing" transform="translate(0,0)">
+                <text class="category" dx="30">Development</text>
+                <text opacity="0">tenure:</text>
+                <text class="tenure"
+                      x="900"
+                      xml:space="preserve"><tspan>    <tspan>12</tspan> <tspan dx=".75em">years</tspan></tspan></text>
+                <g xml:space="preserve">
+                    <text x="420" class="label">Link:</text>
+                    <a href="https://spwashi.com/on/development?from=spwashi.resume"
+                    ><text x="470">a story</text> </a>
+                </g>
+            </g>
+            <text xml:space="preserve"><tspan>&#9;</tspan></text>
+            <g id="deploying" transform="translate(0,50)">
+                <text class="category" dx="30">Deployment</text>
+                <text class="tenure" x="900">
+                    <tspan>10</tspan>
+                    <tspan dx=".75em">years</tspan>
+                </text>
+                <g xml:space="preserve">
+                    <text x="420" class="label">Link:</text>
+                    <a href="https://spwashi.com/on/deploymenr?from=spwashi.resume"
+                    ><text x="470">a few musings</text> </a>
+                </g>
+            </g>
+            <text xml:space="preserve"><tspan>&#9;</tspan></text>
+            <g id="architecting" transform="translate(0,100)">
+                <text class="category" dx="30">Architecture</text>
+                <text class="tenure" x="900">
+                    <tspan>8</tspan>
+                    <tspan dx=".75em">years</tspan>
+                </text>
+                <g xml:space="preserve">
+                    <text x="420" class="label">Link:</text>
+                    <a href="https://spwashi.com/on/architecture?from=spwashi.resume"
+                    ><text x="470">a cool project</text> </a>
+                </g>
+            </g>
+            <text xml:space="preserve"><tspan>&#9;</tspan></text>
+            <g id="github" transform="translate(0,150)">
+                <text class="category" dx="30">GitHub</text>
+                <text class="tenure" x="900">
+                    <tspan>7</tspan>
+                    <tspan dx=".75em">years</tspan>
+                </text>
+                <g xml:space="preserve">
+                    <text x="420" class="label">Link:</text>
+                    <a href="https://github.com/spwashi/"
+                    ><text x="470">my profile</text> </a>
+                </g>
+            </g>
+            <text xml:space="preserve"><tspan>&#9;</tspan></text>
+            <g id="college" transform="translate(0,200)">
+                <text class="category" dx="30">Post-college</text>
+                <text class="tenure" x="900">
+                    <tspan>6</tspan>
+                    <tspan dx=".75em">years</tspan>
+                </text>
+                <g xml:space="preserve">
+                    <text x="420" class="label">Link:</text>
+                    <a href="https://spwashi.com/on/language?from=spwashi.resume"
+                    ><text x="470">about language</text> </a>
+                </g>
+                <text class="school-and-major">
+                    <tspan dy="25" x="4em">University of Illinois Urbana-Champaign</tspan>
+                    <tspan dy="2em" x="6em">Learning and Education Studies</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+    <text xml:space="preserve"><tspan>&#9;</tspan></text>
+    <text xml:space="preserve"><tspan>&#9;</tspan></text>
+    <g id="section--experience" transform="translate(0,715.000004464)">
+        <rect width="1000" height="750.000005575"/>
+        <!--        -->
+        <g class="inner-wrapper" transform="translate(30,30)">
+            <g id="section--experience-title" transform="translate(30,10)">
+                <text class="title">
+                    <tspan>Professional Experience</tspan>
+                </text>
+                <text class="tenure" x="875" text-anchor="end">
+                    <tspan>10</tspan>
+                    <tspan dx=".75em">years</tspan>
+                </text>
+            </g>
+            <!--            -->
+            <g id="section--experience--_F_" transform="translate(30,160)">
+                <text>
+                    <tspan class="company">_F_[name]</tspan>
+                    <tspan class="city" dx=".75em">_F_[city]</tspan>
+                </text>
+                <g class="principles" transform="translate(20)">
+                    <text>
+                        <tspan dy="2em" x="0">Bug Diagnosis</tspan>
+                        <tspan dy="2em" x="0">Architecture Visualization</tspan>
+                    </text>
+                </g>
+                <g class="job-technologies" transform="translate(350)">
+                    <text>
+                        <tspan dy="2em" x="0">React</tspan>
+                        <tspan dy="2em" x="0">Mobx/Redux</tspan>
+                        <tspan dy="2em" x="0">Gatsby</tspan>
+                    </text>
+                </g>
+            </g>
+            <text xml:space="preserve"><tspan>&#9;</tspan></text>
+            <g id="section--experience--_E_" transform="translate(30,50)">
+                <text>
+                    <tspan class="company">_E_[name]</tspan>
+                    <tspan class="city" dx=".75em">(_E_[city])</tspan>
+                </text>
+                <g class="title-and-duration" transform="translate(875)" text-anchor="end">
+                    <text>2022</text>
+                    <text>
+                        <tspan dy="2em">Senior Software Engineer</tspan>
+                    </text>
+                </g>
+                <g class="principles" transform="translate(20)">
+                    <text>
+                        <tspan dy="2em" x="0">Design System Development</tspan>
+                        <tspan dy="2em" x="0">Component Library Research</tspan>
+                        <tspan dy="2em" x="0">Project Architecture</tspan>
+                    </text>
+                </g>
+                <g class="job-technologies" transform="translate(350)">
+                    <text>
+                        <tspan dy="2em" x="0">Java</tspan>
+                        <tspan dy="2em" x="0">React</tspan>
+                        <tspan dy="2em" x="0">Mantine</tspan>
+                    </text>
+                </g>
+            </g>
+            <text xml:space="preserve"><tspan>&#9;</tspan></text>
+            <g id="section--experience--_D_" transform="translate(30,245)">
+                <text>
+                    <tspan class="company">_D_[name]</tspan>
+                    <tspan class="city" dx=".75em">(_D_[city])</tspan>
+                </text>
+                <g class="title-and-duration" transform="translate(875)" text-anchor="end">
+                    <text>2019-2021</text>
+                    <text>
+                        <tspan dy="2em">Fullstack Engineer</tspan>
+                    </text>
+                </g>
+                <g class="principles" transform="translate(20)">
+                    <text>
+                        <tspan dy="2em" x="0">Internal App Development</tspan>
+                        <tspan dy="2em" x="0">Fraud Detection/Prevention</tspan>
+                        <tspan dy="2em" x="0">Code Review</tspan>
+                    </text>
+                </g>
+                <g class="job-technologies" transform="translate(350)">
+                    <text>
+                        <tspan dy="2em" x="0">PHP</tspan>
+                        <tspan dy="2em" x="0">Symfony</tspan>
+                        <tspan dy="2em" x="0">React</tspan>
+                    </text>
+                </g>
+            </g>
+            <text xml:space="preserve"><tspan>&#9;</tspan></text>
+            <g id="section--experience--_C_" transform="translate(30,360)">
+                <text>
+                    <tspan class="company">_C_[name]</tspan>
+                    <tspan class="city" dx=".75em">(_C_[city])</tspan>
+                </text>
+                <g class="title-and-duration" transform="translate(875)" text-anchor="end">
+                    <text>2018-2019</text>
+                    <text>
+                        <tspan dy="2em">Digital Applications Developer</tspan>
+                    </text>
+                </g>
+                <g class="principles" transform="translate(20)">
+                    <text>
+                        <tspan dy="2em" x="0">Software Lifecycle Management</tspan>
+                        <tspan dy="2em" x="0">Marketing Site Development</tspan>
+                        <tspan dy="2em" x="0">Content Management</tspan>
+                    </text>
+                </g>
+                <g class="job-technologies" transform="translate(350)">
+                    <text>
+                        <tspan dy="2em" x="0">React</tspan>
+                        <tspan dy="2em" x="0">Drupal</tspan>
+                        <tspan dy="2em" x="0">PHP</tspan>
+                    </text>
+                </g>
+            </g>
+            <text xml:space="preserve"><tspan>&#9;</tspan></text>
+            <g id="section--experience--_B_" transform="translate(30,475)">
+                <text>
+                    <tspan class="company">_B_[name]</tspan>
+                    <tspan class="city" dx=".75em">(_B_[city])</tspan>
+                </text>
+                <g class="title-and-duration" transform="translate(875)" text-anchor="end">
+                    <text>2016-2017</text>
+                    <text>
+                        <tspan dy="2em">Intern, Web Developer</tspan>
+                    </text>
+                </g>
+                <g class="principles" transform="translate(20)">
+                    <text>
+                        <tspan dy="2em" x="0">Project Architecture</tspan>
+                        <tspan dy="2em" x="0">Order Placement</tspan>
+                        <tspan dy="2em" x="0">Authentication</tspan>
+                    </text>
+                </g>
+                <g class="job-technologies" transform="translate(350)">
+                    <text>
+                        <tspan dy="2em" x="0">PHP</tspan>
+                        <tspan dy="2em" x="0">Drupal</tspan>
+                        <tspan dy="2em" x="0">Symfony</tspan>
+                    </text>
+                </g>
+            </g>
+            <text xml:space="preserve"><tspan>&#9;</tspan></text>
+            <g id="section--experience--_A_" transform="translate(30,590)">
+                <text>
+                    <tspan class="company">_A_[name]</tspan>
+                    <tspan class="city" dx=".75em">(_A_[city])</tspan>
+                </text>
+                <g class="title-and-duration" transform="translate(875)" text-anchor="end">
+                    <text>2012-2016</text>
+                    <text>
+                        <tspan dy="2em">Intern, Architect</tspan>
+                    </text>
+                </g>
+                <g class="principles" transform="translate(20)">
+                    <text>
+                        <tspan dy="2em" x="0">Project Architecture</tspan>
+                        <tspan dy="2em" x="0">User Profile Administration</tspan>
+                        <tspan dy="2em" x="0">Document Storage</tspan>
+                    </text>
+                </g>
+                <g class="job-technologies" transform="translate(350)">
+                    <text>
+                        <tspan dy="2em" x="0">PHP</tspan>
+                        <tspan dy="2em" x="0">JavaScript</tspan>
+                        <tspan dy="2em" x="0">jQuery</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
