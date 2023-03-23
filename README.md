@@ -1,8 +1,13 @@
 # Made with Love
 
+!!! scroll to the bottom if you only want to see the picture !!!
+
 These days, I keep my resume as an SVG built from the ground up.
 SVG is a graphically-powerful, document-based markup language,
 which makes it a great option for representing creative intent.
+
+This way, I can send people a link, and if they need to copy and paste all the text,
+I can rest assured knowing it's well-structured.
 
 Building it by hand helps me remain aware of which thoughts or ideas
 of mine feel easy to express or give life. I like to keep this in mind
