@@ -52,5 +52,12 @@ I'm excited to dive deeper into SVG animation, especially for the sake of
 learning how we relate to media now that the AI revolution 
 is picking up speed.
 
+# !! It's Interactive !!
+
+- There are links you can **click**, 
+- **copy the text** and **paste it** into an editor to see a secret message :)
+
+[Open in a New Tab](https://github.com/spwashi/resume/blob/main/resume.svg?raw=true)
+
 ![My resume](https://github.com/spwashi/resume/blob/main/resume.svg?raw=true)
 
