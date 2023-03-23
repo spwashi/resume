@@ -2,6 +2,8 @@
 
 !!! scroll to the bottom if you only want to see the picture !!!
 
+## About this
+
 These days, I keep my resume as an SVG built from the ground up.
 SVG is a graphically-powerful, document-based markup language,
 which makes it a great option for representing creative intent.
