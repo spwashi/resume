@@ -1,0 +1,121 @@
+Sam Washington
+Senior Fullstack Engineer
+Strong Team Contributor
+sustainable growth and development
+This resume was made manually with SVG
+spwashi.com introduction
+Feature Implementation, Bug Diagnostics, Auditing, Refactoring
+PHP/TypeScript/Python
+Relational/Document Databases
+CSS/SASS
+Webpack/Composer
+Templating Engines
+Programming Paradigms
+Analytics
+Accessibility
+Testing/QA
+End-to-End Testing
+Version Control
+Servers/Proxies
+Containerization
+Performance
+Bundling/Caching
+Development Link: a story 12 years
+Deployment Link: a few musings 10 years
+Architecture Link: a cool project 8 years
+GitHub Link: my profile 7 years
+Post-college Link: a cool p6rojyeectars
+University of Illinois Urbana-Champaign
+Learning and Education Studies
+Professional Experience 10 years
+I've spent a fair bit of time exploring language.
+Especially wondering how language can be utilized to:
+1) construct symbolic landmarks,
+2) identify facets of ambiguity, and
+3) develop cohesive visualizations to interact with those structures.
+Professionally,
+I've had variety:
+small teams with new codebases,
+mid-sized teams with mature codebases;
+codebases inherited through company mergers,
+codebases maintained through high turnover;
+scripted backends with compiled frontends,
+compiled backends with CDN-hosted JavaScript;
+developing managers with very hands-off approaches,
+non-developing managers with very hands-on approaches;
+^ (and I've learned from each
+to practice different ways
+of reducing ambiguity)
+The first thing I do when I start a job is learn the language.
+what the goals are,
+how those goals been pursued in the past,
+and how the current direction of the team relates to that aim.
+Then, I practice using that language.
+Every team is unique,
+and I find that it's easy to make assumptions
+that any particular concept is universally understood.
+_F_[name] _F_[city]
+Bug Diagnosis
+Architecture Visualization
+React
+Mobx/Redux
+Gatsby
+_E_[name] (_E_[city]) 2022
+Senior Software Engineer Design System Development
+Component Library Research
+Project Architecture
+Java
+React
+Mantine
+_D_[name] (_D_[city]) 2019-2021
+Fullstack Engineer Internal App Development
+Fraud Detection/Prevention
+Code Review
+PHP
+Symfony
+React
+_C_[name] (_C_[city]) 2018-2019
+Digital Applications Developer Software Lifecycle Management
+Marketing Site Development
+Content Management
+React
+Drupal
+PHP
+_B_[name] (_B_[city]) 2016-2017
+Intern, Web Developer Project Architecture
+Order Placement
+Authentication
+PHP
+Drupal
+Symfony
+_A_[name] (_A_[city]) 2012-2016
+Intern, Architect Project Architecture
+User Profile Administration
+Document Storage
+PHP
+JavaScript
+jQuery
+Meaningful Experience
+Hello!
+My name is
+samwashington
+and I'm really good*
+at learning.
+I majored in
+Learning
+and
+Education Studies
+after
+Electrical
+and
+Computer
+Engineering
+because
+aIn dw aint ewdta ost oafT ohusceneu dnsesetredus dtaoeanfnd td mf tuaoehtcrnauigotal u liwgmltahayas d tepich rnaeSogloBf lrMoseyEupd na tadcSon et msubie dunafeitnonleirtdrn egDBms.iot sdmiEcyendu ngusft csoucairmhtn aigMflo,eoln are Cn nmriagen eags ntfttsiuo nld dg eti,Enaf dtcfau kencolrdare tg.nCiaton nitn zhe(aicStntBigiMosnEn g) t ,Ios' tddu idffeofnuetnrsdeendt. people,
+I got a cIhna ntchea t ol abs,s itshte weixtph—e reiesmsseenantrt ciIha lhiWlenhyl iI ptl uehedsde ei Ifnwn igiawn tnairhosta f eywaplsabuy sr o ismfrcui eaisltnsiaig gto thenEhtd le le itacEnobtl recpuicehnctrodarteliaor cie EanlDnl erg c.iaht nnerLedmoye icnrCchfioaeonmlmrgp id,usc toaGeloru d tedEitanocrgnhdisi.netgeo r oimnna gks eic lusirhcraoipnce uswl aulfmie krbese ctaruasnesistors.
+those math classes
+Especially Differential Equationsm,e twahpihcoThrh sah tef lompras t ihmn etc elvraipsrsue atilinin zgpe a trhtiignchgulsly a irdny nmgayam videca imsley s atl eilmfoset . boyf relaaltliyn gi ntoe rtehsetirn gac noadn sdtt hiuetsiueref nuptlu rpea rstcsi.ence / engineering counterparts
+taught me
+exponential growth
+be the most broadly useful mamjaodre. it clear that Lear,niwnhgi cahn dc oEmdbuicnaetdi owni tSht umdyi evsa lwuoeusl dtowards accessible stability,
+wai (nwvtc ieaoet umxhsgp chaeritreeisnadmec eaectnr lotcta hhsre asexit,an dm nLiToenhwagie r n unogArnir dedn tulegdhlar oetpfi iirneLonogfensm fas nerhyaTocnio etipulxhsns ati g cn,no togfLouut a lahfpbtdgaoe h etruet in eIitodml'nhdealvteirt er c et os Drhbdabrieeumr.a ecea lfne iE.a danlcd m-iuemotzlveuratenabyltie o ntgpoiheifn nn gAugt i ioLncmn eae SlIl)cty l.oi legncodneav i-reStMedpiod wvr b.erae obifwonu,ugnt c itfnio ostnther iCnogl ltehgeai nrod f s kBtEnyude duwtec hnaIatsiw 'oapnso ibsnetcl,af u-Ism eohtaidv atlerde aednyo uwgohr kteod lweiatrhn towno mcyo mopwan.ies as a software developer,

@@ -1,29 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
-<svg width="1000" height="1500" xmlns="http://www.w3.org/2000/svg" version="1.1" x="0px" y="0px" viewBox="0 0 1000 1500"
-     style="enable-background:new 0 0 1000 1265;">
+<svg
+        width="1000"
+        height="4000"
+        xmlns="http://www.w3.org/2000/svg"
+        version="1.1"
+        x="0px" y="0px"
+        viewBox="0 0 1000 4000">
     <style type="text/css">
         text{font-family: "Jetbrains Mono", monospace}
         line {stroke-width: 2;}
         text {font-size: 20px;}
-        a text {cursor: pointer; text-decoration: underline;}
+
+        a {cursor: pointer; text-decoration: underline;}
+        a.manual {cursor: pointer; text-decoration: none;}
+        a tspan.label, a tspan.hidden {cursor: pointer; text-decoration: none !important;}
 
         <!--        -->
         #section--intro {fill: #F8E7D2;}
-        #section--intro rect {fill: #4E4B4D;}
+        #section--intro .section-background {fill: #4E4B4D;}
 
         #section--main_skills {fill: white;}
-        #section--main_skills rect {fill: #872424;}
+        #section--main_skills .section-background {fill: #872424;}
 
         #section--tech_summary {fill: #FCE5CD;}
-        #section--tech_summary rect {fill: #BF3434; }
+        #section--tech_summary .section-background {fill: #BF3434; }
         #section--tech_summary tspan {font-size:15px; }
 
         #section--overview {fill: #CCE5F3;}
-        #section--overview rect {fill: #2D5F5F;}
+        #section--overview .section-background {fill: #2D5F5F;}
         #section--overview a text {cursor: pointer; text-decoration: underline; font-size:16px}
         #section--overview .label {font-size: 13px}
+
         #section--experience {fill: #D9F0E3;}
-        #section--experience rect {fill: #1B4332;}
+        #section--experience .section-background {fill: #1B4332;}
+        #section--experience--title .title tspan { font-size:1.5em;}
+        #section--experience--title .tenure tspan { font-size:1.5em;}
+
+        .hidden {opacity:0;}
+        #section--meaningful-experience {fill: #FBD000;}
+        #section--meaningful-experience .section-background {fill: #0F456D;}
+        #section--meaningful-experience .hidden {fill: #0F456D;font-size:.1em}
+        #section--meaningful-experience--title .title tspan { font-size:1.5em;}
+        #section--meaningful-experience--description text {font-size: 40px;}
 
         .tenure {text-anchor:end;}
         .principles tspan{font-size:13px;}
@@ -31,10 +49,9 @@
         .city {font-size: smaller; font-style: italic}
         .company, .title-and-duration text + text {font-weight:bold;}
         #college .school-and-major, #goal { font-size:12px;}
-        #section--experience-title .title tspan { font-size:1.5em;}
     </style>
     <g id="section--intro" transform="translate(30,30.0020)">
-        <rect width="1000" height="170.000001131" y="-30" x="-30 "/>
+        <rect class="section-background" width="1000" height="170.000001131" y="-30" x="-30 "/>
         <g transform="translate(0, 45)">
             <text class="me--name">
                 <tspan font-size="1.5em">Sam Washington</tspan>
@@ -73,11 +90,11 @@
     <text xml:space="preserve"><tspan>&#9;</tspan></text>
     <text xml:space="preserve"><tspan>&#9;</tspan></text>
     <g id="section--main_skills" transform="translate(0,180.000001131)">
-        <rect width="1000" height="45.000002242"/>
+        <rect class="section-background" width="1000" height="45.000002242"/>
         <g class="inner-wrapper" transform="translate(30,30)">
             <text transform="translate(470)" text-anchor="middle">
                 <tspan font-size="1.2em">
-                    Feature Implementation, Bug Diagnosis, Auditing,
+                    Feature Implementation, Bug Diagnostics, Auditing,
                     Refactoring
                 </tspan>
             </text>
@@ -85,7 +102,7 @@
     </g>
     <text xml:space="preserve"><tspan>&#9;</tspan></text>
     <g id="section--tech_summary" transform="translate(0,235.000002242)">
-        <rect width="1000" height="165.000003353"/>
+        <rect class="section-background" width="1000" height="165.000003353"/>
         <g class="inner-wrapper" transform="translate(500, 30)" text-anchor="middle">
             <g transform="translate(-250)">
                 <text>
@@ -119,18 +136,25 @@
     <text xml:space="preserve"><tspan>&#9;</tspan></text>
     <text xml:space="preserve"><tspan>&#9;</tspan></text>
     <g id="section--overview" transform="translate(0,410.000003353)">
-        <rect width="1000" height="295.000004464"/>
+        <rect class="section-background" width="1000" height="295.000004464"/>
         <g class="inner-wrapper" transform="translate(30,30)">
             <g id="developing" transform="translate(0,0)">
                 <text class="category" dx="30">Development</text>
-                <text opacity="0">tenure:</text>
-                <text class="tenure"
-                      x="900"
-                      xml:space="preserve"><tspan>    <tspan>12</tspan> <tspan dx=".75em">years</tspan></tspan></text>
-                <g xml:space="preserve">
-                    <text x="420" class="label">Link:</text>
-                    <a href="https://spwashi.com/on/development?from=spwashi.resume"
-                    ><text x="470">a story</text> </a>
+                <text class="tenure" x="900">
+                    <tspan>
+                        <tspan>12</tspan>
+                        <tspan dx=".75em">years</tspan>
+                    </tspan>
+                </text>
+                <g>
+                    <!--@formatter:off-->
+                    <a href="https://spwashi.com/on/development?from=spwashi.resume" class="manual">
+                        <text x="470">
+                            <tspan x="410" class="label">Link:</tspan>
+                            <tspan xml:space="preserve"><tspan class="hidden">[</tspan>a story<tspan class="hidden">]</tspan></tspan><tspan class="hidden">(https://spwashi.com/on/development?from=spwashi.resume)</tspan>
+                        </text>
+                    </a>
+                    <!--@formatter:on-->
                 </g>
             </g>
             <text xml:space="preserve"><tspan>&#9;</tspan></text>
@@ -140,10 +164,15 @@
                     <tspan>10</tspan>
                     <tspan dx=".75em">years</tspan>
                 </text>
-                <g xml:space="preserve">
-                    <text x="420" class="label">Link:</text>
-                    <a href="https://spwashi.com/on/deploymenr?from=spwashi.resume"
-                    ><text x="470">a few musings</text> </a>
+                <g>
+                    <!--@formatter:off-->
+                    <a href="https://spwashi.com/on/deployment?from=spwashi.resume">
+                        <text x="470">
+                            <tspan x="410" class="label">Link:</tspan>
+                            <tspan xml:space="preserve"><tspan class="hidden">[</tspan>a few musings<tspan class="hidden">]</tspan></tspan><tspan class="hidden">(https://spwashi.com/on/deployment?from=spwashi.resume)</tspan>
+                        </text>
+                    </a>
+                    <!--@formatter:on-->
                 </g>
             </g>
             <text xml:space="preserve"><tspan>&#9;</tspan></text>
@@ -153,10 +182,15 @@
                     <tspan>8</tspan>
                     <tspan dx=".75em">years</tspan>
                 </text>
-                <g xml:space="preserve">
-                    <text x="420" class="label">Link:</text>
-                    <a href="https://spwashi.com/on/architecture?from=spwashi.resume"
-                    ><text x="470">a cool project</text> </a>
+                <g>
+                    <!--@formatter:off-->
+                    <a href="https://spwashi.com/on/architecture?from=spwashi.resume">
+                        <text x="470">
+                            <tspan x="410" class="label">Link:</tspan>
+                            <tspan xml:space="preserve"><tspan class="hidden">[</tspan>a cool project<tspan class="hidden">]</tspan></tspan><tspan class="hidden">(https://spwashi.com/on/architecture?from=spwashi.resume)</tspan>
+                        </text>
+                    </a>
+                    <!--@formatter:on-->
                 </g>
             </g>
             <text xml:space="preserve"><tspan>&#9;</tspan></text>
@@ -166,10 +200,15 @@
                     <tspan>7</tspan>
                     <tspan dx=".75em">years</tspan>
                 </text>
-                <g xml:space="preserve">
-                    <text x="420" class="label">Link:</text>
-                    <a href="https://github.com/spwashi/"
-                    ><text x="470">my profile</text> </a>
+                <g>
+                    <!--@formatter:off-->
+                    <a href="https://github.com/spwashi/">
+                        <text x="470">
+                            <tspan x="410" class="label">Link:</tspan>
+                            <tspan xml:space="preserve"><tspan class="hidden">[</tspan>my profile<tspan class="hidden">]</tspan></tspan><tspan class="hidden">(https://github.com/spwashi)</tspan>
+                        </text>
+                    </a>
+                    <!--@formatter:on-->
                 </g>
             </g>
             <text xml:space="preserve"><tspan>&#9;</tspan></text>
@@ -180,9 +219,14 @@
                     <tspan dx=".75em">years</tspan>
                 </text>
                 <g xml:space="preserve">
-                    <text x="420" class="label">Link:</text>
-                    <a href="https://spwashi.com/on/language?from=spwashi.resume"
-                    ><text x="470">about language</text> </a>
+                    <!--@formatter:off-->
+                    <a href="https://spwashi.com/on/education?from=spwashi.resume">
+                        <text x="470">
+                            <tspan x="410" class="label">Link:</tspan>
+                            <tspan xml:space="preserve"><tspan class="hidden">[</tspan>a cool project<tspan class="hidden">]</tspan></tspan><tspan class="hidden">(https://spwashi.com/on/education?from=spwashi.resume)</tspan>
+                        </text>
+                    </a>
+                    <!--@formatter:on-->
                 </g>
                 <text class="school-and-major">
                     <tspan dy="25" x="4em">University of Illinois Urbana-Champaign</tspan>
@@ -194,10 +238,12 @@
     <text xml:space="preserve"><tspan>&#9;</tspan></text>
     <text xml:space="preserve"><tspan>&#9;</tspan></text>
     <g id="section--experience" transform="translate(0,715.000004464)">
-        <rect width="1000" height="750.000005575"/>
+        <rect class="section-background" width="1000" height="1665.000005575"/>
+        <rect width="1000" height="60" fill="black" opacity=".3"/>
+
         <!--        -->
         <g class="inner-wrapper" transform="translate(30,30)">
-            <g id="section--experience-title" transform="translate(30,10)">
+            <g id="section--experience--title" transform="translate(30,10)">
                 <text class="title">
                     <tspan>Professional Experience</tspan>
                 </text>
@@ -206,158 +252,410 @@
                     <tspan dx=".75em">years</tspan>
                 </text>
             </g>
+            <text xml:space="preserve"><tspan>&#9;</tspan></text>
+            <g transform="translate(30, 80)">
+                <text>
+                    <tspan font-size="17px">
+                        <tspan>I've spent a fair bit of time exploring language.</tspan>
+                        <tspan x="30" dy="40">Especially wondering how language can be utilized to:</tspan>
+                        <tspan x="70" dy="40">1) construct symbolic landmarks,</tspan>
+                        <tspan x="70" dy="40">2) identify facets of ambiguity, and</tspan>
+                        <tspan x="70" dy="40">3) develop cohesive visualizations to interact with those structures.
+                        </tspan>
+                    </tspan>
+                </text>
+            </g>
+            <text xml:space="preserve"><tspan>&#9;</tspan></text>
+            <g transform="translate(90, 300)">
+                <text>
+                    <tspan font-weight="bold">
+                        <tspan x="0">Professionally,</tspan>
+                        <tspan x="20" dy="35">I've had variety:</tspan>
+                    </tspan>
+                </text>
+            </g>
+            <g transform="translate(130, 340)">
+                <text>
+                    <tspan font-size="15px">
+                        <tspan x="30" dy="30">
+                            <tspan font-weight="bold">small teams</tspan>
+                            <tspan dx="140" opacity=".75">with new codebases,</tspan>
+                        </tspan>
+                        <tspan x="70" dy="30">
+                            <tspan font-weight="bold">mid-sized teams</tspan>
+                            <tspan dx="70" opacity=".75">with mature codebases;</tspan>
+                        </tspan>
+                        <tspan x="50" dy="30">
+                            <tspan font-weight="bold">codebases inherited</tspan>
+                            <tspan dx="70" opacity=".75">through company mergers,</tspan>
+                        </tspan>
+                        <tspan x="90" dy="30">
+                            <tspan font-weight="bold">codebases maintained</tspan>
+                            <tspan dx="50" opacity=".75">through high turnover;</tspan>
+                        </tspan>
+                    </tspan>
+                </text>
+            </g>
+            <text xml:space="preserve"><tspan>&#9;</tspan></text>
+            <g transform="translate(170, 470)">
+                <text>
+                    <tspan font-size="15px">
+                        <tspan x="30" dy="30">
+                            <tspan font-weight="bold">scripted backends</tspan>
+                            <tspan dx="80" opacity=".75">with compiled frontends,</tspan>
+                        </tspan>
+                        <tspan x="70" dy="30">
+                            <tspan font-weight="bold">compiled backends</tspan>
+                            <tspan dx="60" opacity=".75">with CDN-hosted JavaScript;</tspan>
+                        </tspan>
+                        <tspan x="50" dy="30">
+                            <tspan font-weight="bold">developing managers</tspan>
+                            <tspan dx="70" opacity=".75">with very hands-off approaches,</tspan>
+                        </tspan>
+                        <tspan x="90" dy="30">
+                            <tspan font-weight="bold">non-developing managers</tspan>
+                            <tspan dx="50" opacity=".75">with very hands-on approaches;</tspan>
+                        </tspan>
+                        <tspan x="450" dy="30" font-weight="bold" opacity=".5">
+                            <tspan opacity=".3">^ (and I've learned from each</tspan>
+                            <tspan opacity=".3" x="520" dy="25">to practice different ways</tspan>
+                            <tspan opacity=".3" x="550" dy="25">of reducing ambiguity)</tspan>
+                        </tspan>
+                    </tspan>
+                </text>
+            </g>
+            <text xml:space="preserve"><tspan>&#9;</tspan></text>
+            <g transform="translate(30, 680)">
+                <text>
+                    <tspan dy="30">The first thing I do when I start a job is learn the language.</tspan>
+                    <tspan class="hidden">I learn</tspan>
+                    <tspan x="50" dy="30">what the goals are,</tspan>
+                    <tspan x="70" dy="30">how those goals been pursued in the past,</tspan>
+                    <tspan x="90" dy="30">and how the current direction of the team relates to that aim.</tspan>
+                    <tspan x="0" dy="40">Then, I practice using that language.</tspan>
+                    <tspan x="50" dy="30">Every team is unique,</tspan>
+                    <tspan x="70" dy="30">and I find that it's easy to make assumptions</tspan>
+                    <tspan x="90" dy="30">that any particular concept is universally understood.</tspan>
+                </text>
+            </g>
+            <text xml:space="preserve"><tspan>&#9;</tspan></text>
+
             <!--            -->
-            <g id="section--experience--_F_" transform="translate(30,160)">
-                <text>
-                    <tspan class="company">_F_[name]</tspan>
-                    <tspan class="city" dx=".75em">_F_[city]</tspan>
-                </text>
-                <g class="principles" transform="translate(20)">
+            <g transform="translate(0,940)">
+                <g id="section--experience--_F_" transform="translate(30,160)">
                     <text>
-                        <tspan dy="2em" x="0">Bug Diagnosis</tspan>
-                        <tspan dy="2em" x="0">Architecture Visualization</tspan>
+                        <tspan class="company">_F_[name]</tspan>
+                        <tspan class="city" dx=".75em">_F_[city]</tspan>
                     </text>
+                    <g class="principles" transform="translate(20)">
+                        <text>
+                            <tspan dy="2em" x="0">Bug Diagnosis</tspan>
+                            <tspan class="hidden separator">,</tspan>
+                            <tspan dy="2em" x="0">Architecture Visualization</tspan>
+                        </text>
+                    </g>
+                    <g class="job-technologies" transform="translate(350)">
+                        <text>
+                            <tspan dy="2em" x="0">React</tspan>
+                            <tspan class="hidden separator">,</tspan>
+                            <tspan dy="2em" x="0">Mobx/Redux</tspan>
+                            <tspan class="hidden separator">,</tspan>
+                            <tspan dy="2em" x="0">Gatsby</tspan>
+                        </text>
+                    </g>
                 </g>
-                <g class="job-technologies" transform="translate(350)">
+                <text xml:space="preserve"><tspan>&#9;</tspan></text>
+                <g id="section--experience--_E_" transform="translate(30,50)">
                     <text>
-                        <tspan dy="2em" x="0">React</tspan>
-                        <tspan dy="2em" x="0">Mobx/Redux</tspan>
-                        <tspan dy="2em" x="0">Gatsby</tspan>
+                        <tspan class="company">_E_[name]</tspan>
+                        <tspan class="city" dx=".75em">(_E_[city])</tspan>
                     </text>
+                    <g class="title-and-duration" transform="translate(875)" text-anchor="end">
+                        <text>2022</text>
+                        <text>
+                            <tspan dy="2em">Senior Software Engineer</tspan>
+                        </text>
+                    </g>
+                    <g class="principles" transform="translate(20)">
+                        <text>
+                            <tspan dy="2em" x="0">Design System Development</tspan>
+                            <tspan class="hidden separator">,</tspan>
+                            <tspan dy="2em" x="0">Component Library Research</tspan>
+                            <tspan class="hidden separator">,</tspan>
+                            <tspan dy="2em" x="0">Project Architecture</tspan>
+                        </text>
+                    </g>
+                    <g class="job-technologies" transform="translate(350)">
+                        <text>
+                            <tspan dy="2em" x="0">Java</tspan>
+                            <tspan class="hidden separator">,</tspan>
+                            <tspan dy="2em" x="0">React</tspan>
+                            <tspan class="hidden separator">,</tspan>
+                            <tspan dy="2em" x="0">Mantine</tspan>
+                        </text>
+                    </g>
+                </g>
+                <text xml:space="preserve"><tspan>&#9;</tspan></text>
+                <g id="section--experience--_D_" transform="translate(30,245)">
+                    <text>
+                        <tspan class="company">_D_[name]</tspan>
+                        <tspan class="city" dx=".75em">(_D_[city])</tspan>
+                    </text>
+                    <g class="title-and-duration" transform="translate(875)" text-anchor="end">
+                        <text>2019-2021</text>
+                        <text>
+                            <tspan dy="2em">Fullstack Engineer</tspan>
+                        </text>
+                    </g>
+                    <g class="principles" transform="translate(20)">
+                        <text>
+                            <tspan dy="2em" x="0">Internal App Development</tspan>
+                            <tspan class="hidden separator">,</tspan>
+                            <tspan dy="2em" x="0">Fraud Detection/Prevention</tspan>
+                            <tspan class="hidden separator">,</tspan>
+                            <tspan dy="2em" x="0">Code Review</tspan>
+                        </text>
+                    </g>
+                    <g class="job-technologies" transform="translate(350)">
+                        <text>
+                            <tspan dy="2em" x="0">PHP</tspan>
+                            <tspan class="hidden separator">,</tspan>
+                            <tspan dy="2em" x="0">Symfony</tspan>
+                            <tspan class="hidden separator">,</tspan>
+                            <tspan dy="2em" x="0">React</tspan>
+                        </text>
+                    </g>
+                </g>
+                <text xml:space="preserve"><tspan>&#9;</tspan></text>
+                <g id="section--experience--_C_" transform="translate(30,360)">
+                    <text>
+                        <tspan class="company">_C_[name]</tspan>
+                        <tspan class="city" dx=".75em">(_C_[city])</tspan>
+                    </text>
+                    <g class="title-and-duration" transform="translate(875)" text-anchor="end">
+                        <text>2018-2019</text>
+                        <text>
+                            <tspan dy="2em">Digital Applications Developer</tspan>
+                        </text>
+                    </g>
+                    <g class="principles" transform="translate(20)">
+                        <text>
+                            <tspan dy="2em" x="0">Software Lifecycle Management</tspan>
+                            <tspan class="hidden separator">,</tspan>
+                            <tspan dy="2em" x="0">Marketing Site Development</tspan>
+                            <tspan class="hidden separator">,</tspan>
+                            <tspan dy="2em" x="0">Content Management</tspan>
+                        </text>
+                    </g>
+                    <g class="job-technologies" transform="translate(350)">
+                        <text>
+                            <tspan dy="2em" x="0">React</tspan>
+                            <tspan class="hidden separator">,</tspan>
+                            <tspan dy="2em" x="0">Drupal</tspan>
+                            <tspan class="hidden separator">,</tspan>
+                            <tspan dy="2em" x="0">PHP</tspan>
+                        </text>
+                    </g>
+                </g>
+                <text xml:space="preserve"><tspan>&#9;</tspan></text>
+                <g id="section--experience--_B_" transform="translate(30,475)">
+                    <text>
+                        <tspan class="company">_B_[name]</tspan>
+                        <tspan class="city" dx=".75em">(_B_[city])</tspan>
+                    </text>
+                    <g class="title-and-duration" transform="translate(875)" text-anchor="end">
+                        <text>2016-2017</text>
+                        <text>
+                            <tspan dy="2em">Intern, Web Developer</tspan>
+                        </text>
+                    </g>
+                    <g class="principles" transform="translate(20)">
+                        <text>
+                            <tspan dy="2em" x="0">Project Architecture</tspan>
+                            <tspan class="hidden separator">,</tspan>
+                            <tspan dy="2em" x="0">Order Placement</tspan>
+                            <tspan class="hidden separator">,</tspan>
+                            <tspan dy="2em" x="0">Authentication</tspan>
+                        </text>
+                    </g>
+                    <g class="job-technologies" transform="translate(350)">
+                        <text>
+                            <tspan dy="2em" x="0">PHP</tspan>
+                            <tspan class="hidden separator">,</tspan>
+                            <tspan dy="2em" x="0">Drupal</tspan>
+                            <tspan class="hidden separator">,</tspan>
+                            <tspan dy="2em" x="0">Symfony</tspan>
+                        </text>
+                    </g>
+                </g>
+                <text xml:space="preserve"><tspan>&#9;</tspan></text>
+                <g id="section--experience--_A_" transform="translate(30,590)">
+                    <text>
+                        <tspan class="company">_A_[name]</tspan>
+                        <tspan class="city" dx=".75em">(_A_[city])</tspan>
+                    </text>
+                    <g class="title-and-duration" transform="translate(875)" text-anchor="end">
+                        <text>2012-2016</text>
+                        <text>
+                            <tspan dy="2em">Intern, Architect</tspan>
+                        </text>
+                    </g>
+                    <g class="principles" transform="translate(20)">
+                        <text>
+                            <tspan dy="2em" x="0">Project Architecture</tspan>
+                            <tspan class="hidden separator">,</tspan>
+                            <tspan dy="2em" x="0">User Profile Administration</tspan>
+                            <tspan class="hidden separator">,</tspan>
+                            <tspan dy="2em" x="0">Document Storage</tspan>
+                        </text>
+                    </g>
+                    <g class="job-technologies" transform="translate(350)">
+                        <text>
+                            <tspan dy="2em" x="0">PHP</tspan>
+                            <tspan class="hidden separator">,</tspan>
+                            <tspan dy="2em" x="0">JavaScript</tspan>
+                            <tspan class="hidden separator">,</tspan>
+                            <tspan dy="2em" x="0">jQuery</tspan>
+                        </text>
+                    </g>
                 </g>
             </g>
-            <text xml:space="preserve"><tspan>&#9;</tspan></text>
-            <g id="section--experience--_E_" transform="translate(30,50)">
-                <text>
-                    <tspan class="company">_E_[name]</tspan>
-                    <tspan class="city" dx=".75em">(_E_[city])</tspan>
+        </g>
+    </g>
+    <text xml:space="preserve"><tspan>&#9;</tspan></text>
+    <text xml:space="preserve"><tspan>&#9;</tspan></text>
+    <g id="section--meaningful-experience" transform="translate(0,2390.000005575)">
+        <rect class="section-background" width="1000" height="2000.000006686"/>
+        <rect width="1000" height="65" fill="black" opacity=".3"/>
+        <!--        -->
+        <g class="inner-wrapper" transform="translate(30,30)">
+            <g id="section--meaningful-experience--title" transform="translate(30,10)">
+                <text class="title">
+                    <tspan>Meaningful Experience</tspan>
                 </text>
-                <g class="title-and-duration" transform="translate(875)" text-anchor="end">
-                    <text>2022</text>
-                    <text>
-                        <tspan dy="2em">Senior Software Engineer</tspan>
-                    </text>
-                </g>
-                <g class="principles" transform="translate(20)">
-                    <text>
-                        <tspan dy="2em" x="0">Design System Development</tspan>
-                        <tspan dy="2em" x="0">Component Library Research</tspan>
-                        <tspan dy="2em" x="0">Project Architecture</tspan>
-                    </text>
-                </g>
-                <g class="job-technologies" transform="translate(350)">
-                    <text>
-                        <tspan dy="2em" x="0">Java</tspan>
-                        <tspan dy="2em" x="0">React</tspan>
-                        <tspan dy="2em" x="0">Mantine</tspan>
-                    </text>
-                </g>
             </g>
-            <text xml:space="preserve"><tspan>&#9;</tspan></text>
-            <g id="section--experience--_D_" transform="translate(30,245)">
-                <text>
-                    <tspan class="company">_D_[name]</tspan>
-                    <tspan class="city" dx=".75em">(_D_[city])</tspan>
+            <g id="section--meaningful-experience--description" transform="translate(30, 170)">
+                <text transform="rotate(-5)" style="fill:white;font-weight:bold">
+                    <tspan font-size="60px">Hello!</tspan>
                 </text>
-                <g class="title-and-duration" transform="translate(875)" text-anchor="end">
-                    <text>2019-2021</text>
+                <g transform="translate(70,0)">
                     <text>
-                        <tspan dy="2em">Fullstack Engineer</tspan>
+                        <tspan x="0" y="70.11212">My name is</tspan>
+                        <tspan class="hidden">Sam Washington!</tspan>
                     </text>
-                </g>
-                <g class="principles" transform="translate(20)">
-                    <text>
-                        <tspan dy="2em" x="0">Internal App Development</tspan>
-                        <tspan dy="2em" x="0">Fraud Detection/Prevention</tspan>
-                        <tspan dy="2em" x="0">Code Review</tspan>
+                    <text transform="translate(240.11212, 120.11212) rotate(5)">
+                        <tspan class="hidden">and am</tspan>
+                        <tspan x="20" font-size="55px" style="fill:white;font-weight:bold">samwashington</tspan>
                     </text>
-                </g>
-                <g class="job-technologies" transform="translate(350)">
-                    <text>
-                        <tspan dy="2em" x="0">PHP</tspan>
-                        <tspan dy="2em" x="0">Symfony</tspan>
-                        <tspan dy="2em" x="0">React</tspan>
+                    <text y="170.11212">
+                        <tspan dx="30" dy="0.11212" font-size="25px">and</tspan>
+                        <tspan dx="30" dy="30.11212">I'm</tspan>
+                        <tspan dx="30" dy="20.11212">
+                            <tspan xml:space="preserve" font-style="italic" font-size="1.2em"
+                                   style="fill:white;font-weight:bold"
+                            >really good<tspan dx="5" dy="-15" font-size="30px">*</tspan></tspan>
+                        </tspan>
+                        <tspan dx="-250.11212" dy="80.11212">at</tspan>
+                        <tspan dx="20.11212" dy="40.11212" font-size="70" style="fill:white;font-weight:bold"
+                        >learning</tspan>.
                     </text>
-                </g>
-            </g>
-            <text xml:space="preserve"><tspan>&#9;</tspan></text>
-            <g id="section--experience--_C_" transform="translate(30,360)">
-                <text>
-                    <tspan class="company">_C_[name]</tspan>
-                    <tspan class="city" dx=".75em">(_C_[city])</tspan>
-                </text>
-                <g class="title-and-duration" transform="translate(875)" text-anchor="end">
-                    <text>2018-2019</text>
-                    <text>
-                        <tspan dy="2em">Digital Applications Developer</tspan>
+                    <text xml:space="preserve"><tspan>&#9;</tspan></text>
+                    <text y="340.11212">
+                        <tspan dx="30" dy="60.11212">I majored in</tspan>
+                        <tspan style="fill:white;font-weight:bold">
+                            <tspan dx="-200" dy="90">Learning</tspan>
+                            <tspan dx="-100" dy="40" font-size="30">and</tspan>
+                            <tspan dx="-20" dy="50">Education Studies</tspan>
+                        </tspan>
+                        <tspan dx="-500" dy="90.11212">after</tspan>
+                        <tspan class="hidden">two years in the</tspan>
+                        <tspan style="fill:white;font-weight:bold">
+                            <tspan x="100" dy="90">Electrical</tspan>
+                            <tspan dx="-200" dy="40" font-size="30">and</tspan>
+                            <tspan dx="-20" dy="50">Computer</tspan>
+                            <tspan dx="-100" dy="50">Engineering</tspan>
+                        </tspan>
+                        <tspan class="hidden">curriculum</tspan>
+                        <tspan x="200" dy="90.11212">because</tspan>
+                        <tspan class="hidden" dy="20">
+                            <tspan dx="-200">I wanted to understand enough theory to build momentum for a student
+                                organization I'd founded.
+                            </tspan>
+                            <tspan dx="-200">The student org was called Student Body for Meaningful Education (SBME),
+                            </tspan>
+                            <tspan dx="-200">and it was focused on facilitating spaces for Discussing, Creating, and
+                                Connecting students
+                            </tspan>
+                            <tspan dx="-200">to a sense of mutually profound meaning. Education means different things
+                                to different people,
+                            </tspan>
+                            <tspan dx="-200">and that made SBME an interesting challenge to tackle.</tspan>
+                        </tspan>
                     </text>
-                </g>
-                <g class="principles" transform="translate(20)">
-                    <text>
-                        <tspan dy="2em" x="0">Software Lifecycle Management</tspan>
-                        <tspan dy="2em" x="0">Marketing Site Development</tspan>
-                        <tspan dy="2em" x="0">Content Management</tspan>
+                    <text xml:space="preserve"><tspan>&#9;</tspan></text>
+                    <text y="1000.11212">
+                        <tspan x="500" class="hidden" dy="20">
+                            <tspan dx="-200">While I was pursuing Electrical Engineering,</tspan>
+                            <tspan dx="-200">I got a chance to assist with research in the nanofabrication lab under Dr.
+                                Lynford Goddard.
+                            </tspan>
+                            <tspan dx="-200">In that lab, the experiment I helped with was related to
+                                photoelectrochemical etching on silicon wafers
+                            </tspan>
+                            <tspan dx="-200">&#8212; essentially using rays of light in certain chemical solutions to
+                                make shapes like transistors.
+                            </tspan>
+                            <tspan dx="-200">I definitely miss the Electrical and Computer Engineering curriculum
+                                because
+                            </tspan>
+                        </tspan>
+                        <tspan x="50" dy="50" style="fill:white;font-weight:bold">those math classes</tspan>
+                        <tspan class="hidden" dy="20">
+                            <tspan dx="-200">and their pure science / engineering counterparts</tspan>
+                            <tspan dx="-200">gave me a lot of really interesting and useful</tspan>
+                            <tspan dx="-200">metaphors for interpreting things in my daily life.</tspan>
+                            <tspan dx="-200">Especially Differential Equations, which helps me visualize highly dynamic
+                                systems by relating to their constituent parts.
+                            </tspan>
+                            <tspan dx="-200">That math class in particular</tspan>
+                        </tspan>
+                        <tspan x="100" dy="50" style="">taught me</tspan>
+                        <tspan class="hidden">the implications of</tspan>
+                        <tspan x="50" dy="90" font-size="1.8em" style="fill:white;font-weight:bold">exponential
+                            growth
+                        </tspan>
+                        <tspan class="hidden" dy="40">
+                            <tspan dx="-200">, which combined with my values towards accessible stability,</tspan>
+                            <tspan dx="-200">made it clear that Learning and Education Studies would</tspan>
+                            <tspan dx="-200">be the most broadly useful major.</tspan>
+                        </tspan>
                     </text>
-                </g>
-                <g class="job-technologies" transform="translate(350)">
-                    <text>
-                        <tspan dy="2em" x="0">React</tspan>
-                        <tspan dy="2em" x="0">Drupal</tspan>
-                        <tspan dy="2em" x="0">PHP</tspan>
-                    </text>
-                </g>
-            </g>
-            <text xml:space="preserve"><tspan>&#9;</tspan></text>
-            <g id="section--experience--_B_" transform="translate(30,475)">
-                <text>
-                    <tspan class="company">_B_[name]</tspan>
-                    <tspan class="city" dx=".75em">(_B_[city])</tspan>
-                </text>
-                <g class="title-and-duration" transform="translate(875)" text-anchor="end">
-                    <text>2016-2017</text>
-                    <text>
-                        <tspan dy="2em">Intern, Web Developer</tspan>
-                    </text>
-                </g>
-                <g class="principles" transform="translate(20)">
-                    <text>
-                        <tspan dy="2em" x="0">Project Architecture</tspan>
-                        <tspan dy="2em" x="0">Order Placement</tspan>
-                        <tspan dy="2em" x="0">Authentication</tspan>
-                    </text>
-                </g>
-                <g class="job-technologies" transform="translate(350)">
-                    <text>
-                        <tspan dy="2em" x="0">PHP</tspan>
-                        <tspan dy="2em" x="0">Drupal</tspan>
-                        <tspan dy="2em" x="0">Symfony</tspan>
-                    </text>
-                </g>
-            </g>
-            <text xml:space="preserve"><tspan>&#9;</tspan></text>
-            <g id="section--experience--_A_" transform="translate(30,590)">
-                <text>
-                    <tspan class="company">_A_[name]</tspan>
-                    <tspan class="city" dx=".75em">(_A_[city])</tspan>
-                </text>
-                <g class="title-and-duration" transform="translate(875)" text-anchor="end">
-                    <text>2012-2016</text>
-                    <text>
-                        <tspan dy="2em">Intern, Architect</tspan>
-                    </text>
-                </g>
-                <g class="principles" transform="translate(20)">
-                    <text>
-                        <tspan dy="2em" x="0">Project Architecture</tspan>
-                        <tspan dy="2em" x="0">User Profile Administration</tspan>
-                        <tspan dy="2em" x="0">Document Storage</tspan>
-                    </text>
-                </g>
-                <g class="job-technologies" transform="translate(350)">
-                    <text>
-                        <tspan dy="2em" x="0">PHP</tspan>
-                        <tspan dy="2em" x="0">JavaScript</tspan>
-                        <tspan dy="2em" x="0">jQuery</tspan>
+                    <text xml:space="preserve"><tspan>&#9;</tspan></text>
+                    <text x="300">
+                        <tspan class="hidden" dy="40">
+                            <tspan dx="-200">By that point, I had already worked with two companies as a software
+                                developer,
+                            </tspan>
+                            <tspan dx="-200">and knew I was self-motivated enough to learn on my own.</tspan>
+                            <tspan dx="-200">I loved being in the College of Education because</tspan>
+                            <tspan dx="-200">you could tell the faculty genuinely cared about fostering their students'
+                            </tspan>
+                            <tspan dx="-200">relationships to the material.</tspan>
+                            <tspan dx="-200">There, I got a chance to assist with research in The Adult Learning Lab
+                                under
+                                Dr. Elizabeth A L Stine-Morrow,
+                            </tspan>
+                            <tspan dx="-200">with an experiment examining the effects of periodic brain-training on
+                                cognitive function
+                            </tspan>
+                            <tspan dx="-200">(compared to reading or doing nothing for the same amount of time).</tspan>
+                            <tspan dx="-200">Dr. Stine-Morrow taught a class, Learning from Text, that introduced me
+                            </tspan>
+                            <tspan dx="-200">to the philosophy and cognitive science that now underpins a language I've
+                                been
+                                developing called Spw.
+                            </tspan>
+                        </tspan>
                     </text>
                 </g>
             </g>
