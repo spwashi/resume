@@ -345,7 +345,7 @@
                 <g id="section--experience--_F_" transform="translate(30,160)">
                     <text>
                         <tspan class="company">_F_[name]</tspan>
-                        <tspan class="city" dx=".75em">_F_[city]</tspan>
+                        <tspan class="city" dx=".75em">(_F_[city])</tspan>
                     </text>
                     <g class="principles" transform="translate(20)">
                         <text>
