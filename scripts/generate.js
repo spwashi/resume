@@ -7,12 +7,17 @@ const resumeSvgText =
 let resumeText = resumeSvgText;
 
 Object.entries({
-                 '_A_[name]': 'Honor Services Office', '_A_[city]': 'Naperville',
-                 '_B_[name]': 'University of Illinois Extension', '_B_[city]': 'Urbana-Champaign',
-                 '_C_[name]': 'EnsembleIQ', '_C_[city]': 'Chicago',
-                 '_D_[name]': 'Mbira Technologies', '_D_[city]': 'Chicago',
-                 '_E_[name]': 'Ender', '_E_[city]': 'Remote',
-                 '_F_[name]': 'Curology', '_F_[city]': 'Remote',
-               }).forEach(([search, replacement]) => resumeText = resumeText.replaceAll(search, replacement))
+                 A: {name: 'Honor Services Office', city: 'Naperville'},
+                 B: {name: 'University of Illinois Extension', city: 'Urbana-Champaign'},
+                 C: {name: 'EnsembleIQ', city: 'Chicago'},
+                 D: {name: 'Mbira Technologies', city: 'Chicago'},
+                 E: {name: 'Ender', city: 'Remote'},
+                 F: {name: 'Curology', city: 'Remote'},
+               })
+      .forEach(([experienceKey, detailObject]) => {
+        Object.entries(detailObject)
+              .forEach(([index, value]) => resumeText = resumeText.replaceAll(`_${experienceKey}_[${index}]`, value))
+        return resumeText;
+      })
 
 writeFileSync(resolve(__dirname, '..', 'variants/resume.generated.txt'), resumeText);
